@@ -1,0 +1,14 @@
+@use '../config';
+
+@mixin component-button-base() {
+  all: unset;
+  cursor: pointer;
+
+  &:focus-visible {
+    outline: 2px solid black;
+  }
+}
+
+.#{config.$prefix}--c-btn {
+  @include component-button-base();
+}
