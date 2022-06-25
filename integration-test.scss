@@ -1,4 +1,4 @@
-@use './src/swish' with (
+@use './src/scss/swish' with (
   $css--reset: true, // prevents reset css being rendered,
   $css--reset-animations: true
 );

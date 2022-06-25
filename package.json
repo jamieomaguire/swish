@@ -1,6 +1,9 @@
 {
   "name": "swish",
   "packageManager": "yarn@3.2.1",
+  "files": [
+    "src/scss"
+  ],
   "scripts": {
     "build": "node build.js"
   },
