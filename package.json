@@ -11,7 +11,8 @@
     "src/scss"
   ],
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js",
+    "prepublishOnly": "node ./src/buildTokens.js"
   },
   "dependencies": {
     "sass": "^1.53.0"
