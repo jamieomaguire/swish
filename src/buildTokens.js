@@ -37,7 +37,7 @@ const parseTokens = (tokensNode, constructedTokenName = null) => {
 
 const writeToFile = (scssVariables) => {
   const scssString = scssVariables.join('\n');
-  fs.writeFileSync('tokens.scss', scssString);
+  fs.writeFileSync('./src/scss/tokens.scss', scssString);
 }
 
 const buildTokens = () => {
