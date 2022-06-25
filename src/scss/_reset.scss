@@ -1,5 +1,4 @@
 @use 'config';
-@use './settings/typography';
 
 @mixin reset () {
   // Adapted from http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain)
@@ -132,7 +131,6 @@
 
   html {
     box-sizing: border-box;
-    line-height: typography.$line-height-base;
   }
 
   *, *:before, *:after {
