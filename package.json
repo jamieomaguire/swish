@@ -1,6 +1,6 @@
 {
   "name": "@jamieomaguire/swish",
-  "version": "0.1.0-beta.3",
+  "version": "0.1.0-beta.4",
   "description": "A Web UI helper framework",
   "author": {
     "name": "Jamie Maguire",
@@ -8,7 +8,8 @@
   },
   "packageManager": "yarn@3.2.1",
   "files": [
-    "src"
+    "src/scss",
+    "src/tokens.json"
   ],
   "scripts": {
     "build": "node build.js",
