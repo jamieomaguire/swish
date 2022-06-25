@@ -10,7 +10,6 @@
 .integrationTest {
   color: swish.$red;
   padding: swish.$spacing-base;
-
   @each $name, $breakpoint in swish.$breakpoints {
     @media (min-width: $breakpoint) {
       padding: 1em;

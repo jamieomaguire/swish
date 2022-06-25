@@ -12,4 +12,8 @@ $css--reset: true !default;
 /// @group config
 $css--reset-animations: true !default;
 
-
+/// The value used to prefix selectors and CSS Custom Properties
+/// @access public
+/// @type String
+/// @group config
+$prefix: 'swish' !default;
