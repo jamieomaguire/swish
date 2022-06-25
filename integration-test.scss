@@ -8,12 +8,15 @@
 @use "sass:map";
 
 .integrationTest {
-  color: swish.$red;
-  padding: swish.$spacing-base;
+  padding: swish.$btn-padding;
   @each $name, $breakpoint in swish.$breakpoints {
     @media (min-width: $breakpoint) {
-      padding: 1em;
+      margin: 1em;
     }
   }
+}
+
+.btn {
+  @include swish.component-button-base();
 }
 
