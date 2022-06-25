@@ -1,5 +1,11 @@
 {
   "name": "swish",
+  "version": "0.1.0",
+  "description": "A Web UI helper framework",
+  "author": {
+    "name" : "Jamie Maguire",
+    "url" : "https://www.jamieomaguire.com/"
+  },
   "packageManager": "yarn@3.2.1",
   "files": [
     "src/scss"
