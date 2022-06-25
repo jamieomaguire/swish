@@ -1,0 +1,20 @@
+@use './src/swish' with (
+  $css--reset: true, // prevents reset css being rendered,
+  $css--reset-animations: true
+);
+
+// @use './src/swish.scss';
+
+@use "sass:map";
+
+.integrationTest {
+  color: swish.$red;
+  padding: swish.$spacing-base;
+
+  @each $name, $breakpoint in swish.$breakpoints {
+    @media (min-width: $breakpoint) {
+      padding: 1em;
+    }
+  }
+}
+

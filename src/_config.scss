@@ -1,0 +1,15 @@
+// Configuration flags that can be overridden by the consumer
+
+/// If true, include reset CSS
+/// @access public
+/// @type Bool
+/// @group config
+$css--reset: true !default;
+
+/// If true, include animation reset CSS (prevents animations if user prefers reduced motion)
+/// @access public
+/// @type Bool
+/// @group config
+$css--reset-animations: true !default;
+
+

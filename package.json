@@ -1,0 +1,10 @@
+{
+  "name": "swish",
+  "packageManager": "yarn@3.2.1",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
